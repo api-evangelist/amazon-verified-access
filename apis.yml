@@ -1,0 +1,71 @@
+aid: amazon-verified-access
+name: Amazon Verified Access
+description: >-
+  AWS Verified Access provides secure access to corporate applications without
+  requiring a VPN. It evaluates each application request in real time using
+  security signals like identity, device posture, and contextual data to grant
+  granular access only to users who meet the specified requirements.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Zero Trust
+  - Security
+  - Access Management
+  - AWS
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/apis.yml
+created: '2026-03-16'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: amazon-verified-access:amazon-verified-access-api
+    name: AWS Verified Access API
+    description: >-
+      The AWS Verified Access API provides programmatic access to create and
+      manage Verified Access instances, groups, endpoints, and trust providers.
+      It enables configuring zero-trust network access policies that evaluate
+      user identity and device security posture for each application request.
+    humanURL: https://aws.amazon.com/verified-access/
+    baseURL: https://ec2.amazonaws.com
+    tags:
+      - Zero Trust
+      - Security
+      - Access Management
+      - AWS
+    properties:
+      - type: Documentation
+        url: https://docs.aws.amazon.com/verified-access/latest/ug/
+      - type: Reference
+        url: https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+      - type: Getting Started
+        url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+      - type: Pricing
+        url: https://aws.amazon.com/verified-access/pricing/
+      - type: FAQ
+        url: https://aws.amazon.com/verified-access/faqs/
+common:
+  - type: Portal
+    url: https://aws.amazon.com/
+  - type: Website
+    url: https://aws.amazon.com/verified-access/
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: Console
+    url: https://console.aws.amazon.com/verified-access/
+  - type: Terms of Service
+    url: https://aws.amazon.com/service-terms/
+  - type: Privacy Policy
+    url: https://aws.amazon.com/privacy/
+  - type: Support
+    url: https://aws.amazon.com/premiumsupport/
+  - type: Sign Up
+    url: https://signin.aws.amazon.com/signup?request_type=register
+  - type: Login
+    url: https://aws.amazon.com/console/
+  - type: Status
+    url: https://health.aws.amazon.com/health/status
+  - type: GitHub Organization
+    url: https://github.com/aws
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
