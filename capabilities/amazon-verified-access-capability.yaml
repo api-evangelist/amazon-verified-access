@@ -1,0 +1,7 @@
+id: amazon-verified-access-capability
+name: Amazon Verified Access Capability
+description: Workflow-oriented capability for Amazon Verified Access
+tags:
+- AWS
+consumes:
+- ref: capabilities/shared/amazon-verified-access-shared.yaml
