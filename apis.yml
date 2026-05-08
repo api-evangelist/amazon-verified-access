@@ -33,6 +33,8 @@ apis:
   - Security
   - Zero Trust
   properties:
+  - url: openapi/amazon-verified-access-openapi.yml
+    type: OpenAPI
   - type: Documentation
     url: https://docs.aws.amazon.com/verified-access/latest/ug/
   - type: APIReference
