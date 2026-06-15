@@ -1,0 +1,400 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Access",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "CreateVerifiedAccessEndpoint",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/CreateVerifiedAccessEndpoint",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateVerifiedAccessEndpoint"
+    },
+    {
+      "info": {
+        "name": "DeleteVerifiedAccessEndpoint",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/DeleteVerifiedAccessEndpoint",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteVerifiedAccessEndpoint"
+    },
+    {
+      "info": {
+        "name": "DescribeVerifiedAccessEndpoints",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/DescribeVerifiedAccessEndpoints",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeVerifiedAccessEndpoints"
+    },
+    {
+      "info": {
+        "name": "GetVerifiedAccessEndpointPolicy",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/GetVerifiedAccessEndpointPolicy",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetVerifiedAccessEndpointPolicy"
+    },
+    {
+      "info": {
+        "name": "GetVerifiedAccessEndpointTargets",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/GetVerifiedAccessEndpointTargets",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetVerifiedAccessEndpointTargets"
+    },
+    {
+      "info": {
+        "name": "ModifyVerifiedAccessEndpoint",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/ModifyVerifiedAccessEndpoint",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ModifyVerifiedAccessEndpoint"
+    },
+    {
+      "info": {
+        "name": "ModifyVerifiedAccessEndpointPolicy",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/ModifyVerifiedAccessEndpointPolicy",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ModifyVerifiedAccessEndpointPolicy"
+    },
+    {
+      "info": {
+        "name": "CreateVerifiedAccessGroup",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/CreateVerifiedAccessGroup",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateVerifiedAccessGroup"
+    },
+    {
+      "info": {
+        "name": "DeleteVerifiedAccessGroup",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/DeleteVerifiedAccessGroup",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteVerifiedAccessGroup"
+    },
+    {
+      "info": {
+        "name": "DescribeVerifiedAccessGroups",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/DescribeVerifiedAccessGroups",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeVerifiedAccessGroups"
+    },
+    {
+      "info": {
+        "name": "GetVerifiedAccessGroupPolicy",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/GetVerifiedAccessGroupPolicy",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetVerifiedAccessGroupPolicy"
+    },
+    {
+      "info": {
+        "name": "ModifyVerifiedAccessGroup",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/ModifyVerifiedAccessGroup",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ModifyVerifiedAccessGroup"
+    },
+    {
+      "info": {
+        "name": "ModifyVerifiedAccessGroupPolicy",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/ModifyVerifiedAccessGroupPolicy",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ModifyVerifiedAccessGroupPolicy"
+    },
+    {
+      "info": {
+        "name": "CreateVerifiedAccessInstance",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/CreateVerifiedAccessInstance",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateVerifiedAccessInstance"
+    },
+    {
+      "info": {
+        "name": "DeleteVerifiedAccessInstance",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/DeleteVerifiedAccessInstance",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteVerifiedAccessInstance"
+    },
+    {
+      "info": {
+        "name": "DescribeVerifiedAccessInstances",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/DescribeVerifiedAccessInstances",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeVerifiedAccessInstances"
+    },
+    {
+      "info": {
+        "name": "ExportVerifiedAccessInstanceClientConfiguration",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/ExportVerifiedAccessInstanceClientConfiguration",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ExportVerifiedAccessInstanceClientConfiguration"
+    },
+    {
+      "info": {
+        "name": "ModifyVerifiedAccessInstance",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/ModifyVerifiedAccessInstance",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ModifyVerifiedAccessInstance"
+    },
+    {
+      "info": {
+        "name": "DescribeVerifiedAccessInstanceLoggingConfigurations",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/DescribeVerifiedAccessInstanceLoggingConfigurations",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeVerifiedAccessInstanceLoggingConfigurations"
+    },
+    {
+      "info": {
+        "name": "ModifyVerifiedAccessInstanceLoggingConfiguration",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/ModifyVerifiedAccessInstanceLoggingConfiguration",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ModifyVerifiedAccessInstanceLoggingConfiguration"
+    },
+    {
+      "info": {
+        "name": "AttachVerifiedAccessTrustProvider",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/AttachVerifiedAccessTrustProvider",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "AttachVerifiedAccessTrustProvider"
+    },
+    {
+      "info": {
+        "name": "CreateVerifiedAccessTrustProvider",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/CreateVerifiedAccessTrustProvider",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateVerifiedAccessTrustProvider"
+    },
+    {
+      "info": {
+        "name": "DeleteVerifiedAccessTrustProvider",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/DeleteVerifiedAccessTrustProvider",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteVerifiedAccessTrustProvider"
+    },
+    {
+      "info": {
+        "name": "DescribeVerifiedAccessTrustProviders",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/DescribeVerifiedAccessTrustProviders",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeVerifiedAccessTrustProviders"
+    },
+    {
+      "info": {
+        "name": "DetachVerifiedAccessTrustProvider",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/DetachVerifiedAccessTrustProvider",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DetachVerifiedAccessTrustProvider"
+    },
+    {
+      "info": {
+        "name": "ModifyVerifiedAccessTrustProvider",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://ec2.amazonaws.com/ModifyVerifiedAccessTrustProvider",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ModifyVerifiedAccessTrustProvider"
+    }
+  ],
+  "bundled": true
+}
