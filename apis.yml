@@ -43,6 +43,12 @@ apis:
       - type: FAQ
         url: https://aws.amazon.com/verified-access/faqs/
 common:
+  - type: TrustCenter
+    url: security/amazon-verified-access-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/amazon-verified-access-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/amazon-verified-access-domain-security.yml
   - type: Portal
     url: https://aws.amazon.com/
   - type: Website
