@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Access AttachVerifiedAccessTrustProvider DescribeVerifiedAccessInstanceLoggingConfigurations API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DescribeVerifiedAccessInstanceLoggingConfigurations",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DescribeVerifiedAccessInstanceLoggingConfigurations",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://ec2.amazonaws.com/DescribeVerifiedAccessInstanceLoggingConfigurations",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DescribeVerifiedAccessInstanceLoggingConfigurations"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

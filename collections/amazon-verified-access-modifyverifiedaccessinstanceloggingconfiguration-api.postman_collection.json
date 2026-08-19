@@ -1,0 +1,120 @@
+{
+  "item": [
+    {
+      "id": "7ce6c42b-3468-4967-92a5-7d7ff7f4b919",
+      "name": "ModifyVerifiedAccessInstanceLoggingConfiguration",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "7bcc45dd-803c-44ad-ae0a-0cdfd1081721",
+          "name": "ModifyVerifiedAccessInstanceLoggingConfiguration",
+          "request": {
+            "name": "ModifyVerifiedAccessInstanceLoggingConfiguration",
+            "description": {},
+            "url": {
+              "path": [
+                "ModifyVerifiedAccessInstanceLoggingConfiguration"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "<object>",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "9f94df7b-8991-4d2b-9c28-adf9f07a62fd",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "ModifyVerifiedAccessInstanceLoggingConfiguration"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "<object>",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://ec2.amazonaws.com",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "4b4f50ed-6b48-4a93-84b1-b5ef658155a2",
+    "name": "Amazon Verified Access AttachVerifiedAccessTrustProvider ModifyVerifiedAccessInstanceLoggingConfiguration API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Minimal OpenAPI representation of AWS Verified Access actions exposed through the EC2 API. Operations follow the AWS RPC-over-HTTP convention.",
+      "type": "text/plain"
+    }
+  }
+}

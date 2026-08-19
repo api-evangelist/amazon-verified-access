@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Access AttachVerifiedAccessTrustProvider CreateVerifiedAccessGroup API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "CreateVerifiedAccessGroup",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "CreateVerifiedAccessGroup",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://ec2.amazonaws.com/CreateVerifiedAccessGroup",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "CreateVerifiedAccessGroup"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,120 @@
+{
+  "item": [
+    {
+      "id": "ae8c885c-8a88-4446-aebb-d974a3068be6",
+      "name": "AttachVerifiedAccessTrustProvider",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "8e477535-e825-4053-ae91-110d6d2fc24c",
+          "name": "AttachVerifiedAccessTrustProvider",
+          "request": {
+            "name": "AttachVerifiedAccessTrustProvider",
+            "description": {},
+            "url": {
+              "path": [
+                "AttachVerifiedAccessTrustProvider"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "<object>",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "c8df120b-d19d-4434-8be4-fb1dc646b96e",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "AttachVerifiedAccessTrustProvider"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "<object>",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://ec2.amazonaws.com",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "dfe0f733-3a18-4115-b8e8-0e4a218afde5",
+    "name": "Amazon Verified Access AttachVerifiedAccessTrustProvider API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Minimal OpenAPI representation of AWS Verified Access actions exposed through the EC2 API. Operations follow the AWS RPC-over-HTTP convention.",
+      "type": "text/plain"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Access AttachVerifiedAccessTrustProvider DeleteVerifiedAccessInstance API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeleteVerifiedAccessInstance",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeleteVerifiedAccessInstance",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://ec2.amazonaws.com/DeleteVerifiedAccessInstance",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeleteVerifiedAccessInstance"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

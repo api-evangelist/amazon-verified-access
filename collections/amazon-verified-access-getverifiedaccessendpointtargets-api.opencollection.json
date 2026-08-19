@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Access AttachVerifiedAccessTrustProvider GetVerifiedAccessEndpointTargets API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "GetVerifiedAccessEndpointTargets",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "GetVerifiedAccessEndpointTargets",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://ec2.amazonaws.com/GetVerifiedAccessEndpointTargets",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "GetVerifiedAccessEndpointTargets"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

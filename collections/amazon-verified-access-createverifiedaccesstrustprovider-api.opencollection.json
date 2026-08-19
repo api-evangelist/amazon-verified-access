@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Access AttachVerifiedAccessTrustProvider CreateVerifiedAccessTrustProvider API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "CreateVerifiedAccessTrustProvider",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "CreateVerifiedAccessTrustProvider",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://ec2.amazonaws.com/CreateVerifiedAccessTrustProvider",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "CreateVerifiedAccessTrustProvider"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

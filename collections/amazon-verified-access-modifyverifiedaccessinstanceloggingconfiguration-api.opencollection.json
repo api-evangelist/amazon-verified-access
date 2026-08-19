@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Access AttachVerifiedAccessTrustProvider ModifyVerifiedAccessInstanceLoggingConfiguration API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ModifyVerifiedAccessInstanceLoggingConfiguration",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ModifyVerifiedAccessInstanceLoggingConfiguration",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://ec2.amazonaws.com/ModifyVerifiedAccessInstanceLoggingConfiguration",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ModifyVerifiedAccessInstanceLoggingConfiguration"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

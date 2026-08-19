@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Access AttachVerifiedAccessTrustProvider CreateVerifiedAccessInstance API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "CreateVerifiedAccessInstance",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "CreateVerifiedAccessInstance",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://ec2.amazonaws.com/CreateVerifiedAccessInstance",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "CreateVerifiedAccessInstance"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

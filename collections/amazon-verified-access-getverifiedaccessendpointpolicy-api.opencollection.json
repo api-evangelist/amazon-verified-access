@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Access AttachVerifiedAccessTrustProvider GetVerifiedAccessEndpointPolicy API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "GetVerifiedAccessEndpointPolicy",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "GetVerifiedAccessEndpointPolicy",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://ec2.amazonaws.com/GetVerifiedAccessEndpointPolicy",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "GetVerifiedAccessEndpointPolicy"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

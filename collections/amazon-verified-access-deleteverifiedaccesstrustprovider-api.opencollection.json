@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Access AttachVerifiedAccessTrustProvider DeleteVerifiedAccessTrustProvider API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeleteVerifiedAccessTrustProvider",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeleteVerifiedAccessTrustProvider",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://ec2.amazonaws.com/DeleteVerifiedAccessTrustProvider",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeleteVerifiedAccessTrustProvider"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Access AttachVerifiedAccessTrustProvider CreateVerifiedAccessEndpoint API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "CreateVerifiedAccessEndpoint",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "CreateVerifiedAccessEndpoint",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://ec2.amazonaws.com/CreateVerifiedAccessEndpoint",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "CreateVerifiedAccessEndpoint"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Access AttachVerifiedAccessTrustProvider DescribeVerifiedAccessGroups API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DescribeVerifiedAccessGroups",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DescribeVerifiedAccessGroups",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://ec2.amazonaws.com/DescribeVerifiedAccessGroups",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DescribeVerifiedAccessGroups"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

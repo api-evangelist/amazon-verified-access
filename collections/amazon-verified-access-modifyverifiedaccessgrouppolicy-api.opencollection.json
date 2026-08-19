@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Access AttachVerifiedAccessTrustProvider ModifyVerifiedAccessGroupPolicy API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ModifyVerifiedAccessGroupPolicy",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ModifyVerifiedAccessGroupPolicy",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://ec2.amazonaws.com/ModifyVerifiedAccessGroupPolicy",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ModifyVerifiedAccessGroupPolicy"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Access AttachVerifiedAccessTrustProvider DeleteVerifiedAccessGroup API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeleteVerifiedAccessGroup",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeleteVerifiedAccessGroup",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://ec2.amazonaws.com/DeleteVerifiedAccessGroup",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeleteVerifiedAccessGroup"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

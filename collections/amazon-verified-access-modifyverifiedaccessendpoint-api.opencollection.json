@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Access AttachVerifiedAccessTrustProvider ModifyVerifiedAccessEndpoint API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ModifyVerifiedAccessEndpoint",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ModifyVerifiedAccessEndpoint",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://ec2.amazonaws.com/ModifyVerifiedAccessEndpoint",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ModifyVerifiedAccessEndpoint"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
