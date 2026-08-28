@@ -5,6 +5,18 @@ description: >-
   application request in real time using security signals like identity, device posture, and contextual data to grant
   granular access only to users who meet the specified requirements.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: true
+  label: Hosted service · you call their endpoint
+  confidence: high
+  source:
+  - openapi
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
