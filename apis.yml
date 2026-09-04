@@ -622,6 +622,9 @@ apis:
   - type: FAQ
     url: https://aws.amazon.com/verified-access/faqs/
 common:
+  - type: CapabilityMap
+    url: capabilities/amazon-verified-access-capability-edges.yml
+    name: Amazon Verified Access Business Capability Map
   - type: AgenticAccess
     url: agentic-access/amazon-verified-access-agentic-access.yml
   - type: TrustCenter
