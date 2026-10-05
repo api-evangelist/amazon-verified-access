@@ -1,0 +1,147 @@
+slug: amazon-verified-access
+provider: Amazon Verified Access
+generated_by: planning/capability-mapping/scripts/classify_capabilities.py
+model: claude-opus-5
+frame:
+- Software & Technology
+min_confidence: 0.7
+capability_model:
+  source: https://github.com/vincentmakes/turbo-ea-capabilities
+  license: CC-BY-4.0
+  attribution: Turbo EA Capabilities by Vincent Verdet — Turbo EA, https://github.com/vincentmakes/turbo-ea-capabilities,
+    CC BY 4.0
+  notice: NOTICE
+edge_count: 13
+edges:
+- tag: ModifyVerifiedAccessTrustProvider
+  spec_file: amazon-verified-access-modifyverifiedaccesstrustprovider-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.8
+  evidence: POST /ModifyVerifiedAccessTrustProvider — "security signals like identity, device posture,
+    and contextual data"
+  reason: A trust provider is the federated identity or device-posture source used for access decisions;
+    managing it is federation/IAM configuration, squarely Identity & Access Management.
+- tag: AttachVerifiedAccessTrustProvider
+  spec_file: amazon-verified-access-attachverifiedaccesstrustprovider-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.78
+  evidence: POST /AttachVerifiedAccessTrustProvider; "evaluates each application request in real time
+    using security signals like identity, device posture"
+  reason: Attaching a trust (identity) provider to the Verified Access service configures identity federation
+    used to authorise application access — Identity & Access Management. Some chance it is better framed
+    as zero-trust security architecture, hence not maximal confidence.
+- tag: CreateVerifiedAccessTrustProvider
+  spec_file: amazon-verified-access-createverifiedaccesstrustprovider-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.78
+  evidence: POST /CreateVerifiedAccessTrustProvider; "using security signals like identity, device posture,
+    and contextual data"
+  reason: Creates an identity/device trust provider used to authenticate and evaluate users — federation
+    configuration within Identity & Access Management.
+- tag: GetVerifiedAccessEndpointPolicy
+  spec_file: amazon-verified-access-getverifiedaccessendpointpolicy-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.78
+  evidence: POST /GetVerifiedAccessEndpointPolicy; "grant granular access only to users who meet the specified
+    requirements"
+  reason: Retrieves the authorisation policy governing who may reach an application endpoint — clearly
+    access policy management under Identity & Access Management.
+- tag: DeleteVerifiedAccessTrustProvider
+  spec_file: amazon-verified-access-deleteverifiedaccesstrustprovider-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.76
+  evidence: POST /DeleteVerifiedAccessTrustProvider; "evaluates each application request in real time
+    using security signals like identity, device posture"
+  reason: Lifecycle of identity/device trust providers used for authentication — Identity & Access Management
+    (federation).
+- tag: DetachVerifiedAccessTrustProvider
+  spec_file: amazon-verified-access-detachverifiedaccesstrustprovider-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.76
+  evidence: POST /DetachVerifiedAccessTrustProvider; "grant granular access only to users who meet the
+    specified requirements"
+  reason: Detaching an identity trust provider changes which identity sources can authorise access — IAM
+    federation administration.
+- tag: GetVerifiedAccessGroupPolicy
+  spec_file: amazon-verified-access-getverifiedaccessgrouppolicy-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.75
+  evidence: GetVerifiedAccessGroupPolicy — "provides secure access to corporate applications ... evaluates
+    each application request in real time using security signals like identity, device posture"
+  reason: The operation retrieves the access policy attached to a Verified Access group; the service grants
+    granular application access based on identity and device posture, which is identity and access management
+    tooling, not a line-of-business capability.
+- tag: ModifyVerifiedAccessEndpointPolicy
+  spec_file: amazon-verified-access-modifyverifiedaccessendpointpolicy-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.75
+  evidence: POST /ModifyVerifiedAccessEndpointPolicy — "grant granular access only to users who meet the
+    specified requirements"
+  reason: Edits the authorisation policy controlling which users may reach an application endpoint — access
+    policy administration, i.e. identity and access management.
+- tag: ModifyVerifiedAccessGroupPolicy
+  spec_file: amazon-verified-access-modifyverifiedaccessgrouppolicy-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.75
+  evidence: POST /ModifyVerifiedAccessGroupPolicy — "grant granular access only to users who meet the
+    specified requirements"
+  reason: Updates the group-level authorisation policy evaluated on each application request — clearly
+    access policy management under cybersecurity IAM.
+- tag: DescribeVerifiedAccessTrustProviders
+  spec_file: amazon-verified-access-describeverifiedaccesstrustproviders-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.74
+  evidence: POST /DescribeVerifiedAccessTrustProviders
+  reason: Read operation over configured identity/device trust providers used for access evaluation; inventory
+    of federation configuration within IAM.
+- tag: CreateVerifiedAccessGroup
+  spec_file: amazon-verified-access-createverifiedaccessgroup-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.72
+  evidence: POST /CreateVerifiedAccessGroup; "grant granular access only to users who meet the specified
+    requirements"
+  reason: Verified Access groups carry the access policies applied to grouped application endpoints —
+    access administration, i.e. Identity & Access Management.
+- tag: CreateVerifiedAccessEndpoint
+  spec_file: amazon-verified-access-createverifiedaccessendpoint-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.7
+  evidence: POST /CreateVerifiedAccessEndpoint; "provides secure access to corporate applications without
+    requiring a VPN ... grant granular access only to users who meet the specified requirements"
+  reason: Creates the application endpoint through which user access is brokered and authorised; part
+    of the access-control surface, so IAM under Cybersecurity Management. Infrastructure-provisioning
+    reading is possible, so moderate confidence.
+- tag: DeleteVerifiedAccessGroup
+  spec_file: amazon-verified-access-deleteverifiedaccessgroup-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.7
+  evidence: POST /DeleteVerifiedAccessGroup; "grant granular access only to users who meet the specified
+    requirements"
+  reason: Removes an access-policy group governing application access — administration of access controls
+    (IAM).
