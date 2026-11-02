@@ -1,0 +1,92 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-28'
+method: searched
+source: https://aws.amazon.com/verified-access/pricing/
+sources:
+- https://aws.amazon.com/verified-access/pricing/
+provenance:
+  tool: engine/economics/harvest_pricing.py
+  run: 20261028T161713
+  grounding: every price_text was found verbatim in the fetched page text
+audience: developer-api
+pricing_basis: usage-other
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-28'
+published: true
+note: 'Live pricing tables are unrendered placeholders ({priceOf!...}); numeric rates come only from the
+  worked pricing examples. Tiered app-hour pricing: 1 to 148,800 app hours vs 148,800+ app hours.'
+plan_count: 4
+currency: USD
+plans:
+- name: HTTP(S) applications – app hours (US East Ohio example)
+  price_text: $0.27/hr for each app
+  price: 0.27
+  currency: USD
+  period: per-use
+  unit: app-hour
+  included_quota: 1 to 148,800 app hours (covers up to 200 apps in a month)
+  overage: Next 74,400 (223,200-148,800) app hours 74,400 hours * $0.20
+- name: HTTP(S) applications – data processing
+  price_text: 0.5 GB * 10 applications * $0.02
+  price: 0.02
+  currency: USD
+  period: per-use
+  unit: per GB of data processed
+- name: Non-HTTP(S) endpoint hours
+  price_text: 10 endpoint hours * $0.2
+  price: 0.2
+  currency: USD
+  period: per-use
+  unit: endpoint-hour
+  included_quota: up to 100 free client connections per hour per non-HTTP endpoint
+- name: Non-HTTP(S) connections
+  price_text: 372,000 * 0.001 connections above free limit
+  price: 0.001
+  currency: USD
+  period: per-use
+  unit: connection-hour
+  included_quota: number of non-HTTP endpoints * 100 free connections
+  overage: charged for every connection beyond the total number of free connections
+x-canonical:
+  generated: '2026-11-01'
+  vocabulary: engine/economics/plans-canonical.yml
+  models:
+  - hybrid
+  units:
+  - compute
+  - data
+  plans:
+  - name: HTTP(S) applications – app hours (US East Ohio example)
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - compute
+    periods:
+    - other
+  - name: HTTP(S) applications – data processing
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - data
+    periods:
+    - other
+  - name: Non-HTTP(S) endpoint hours
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - compute
+    periods:
+    - other
+  - name: Non-HTTP(S) connections
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - compute
+    periods:
+    - other

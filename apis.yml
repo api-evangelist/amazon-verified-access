@@ -1,0 +1,700 @@
+aid: amazon-verified-access
+name: Amazon Verified Access
+description: >-
+  AWS Verified Access provides secure access to corporate applications without requiring a VPN. It evaluates each
+  application request in real time using security signals like identity, device posture, and contextual data to grant
+  granular access only to users who meet the specified requirements.
+type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: true
+  label: Hosted service · you call their endpoint
+  confidence: high
+  source:
+  - openapi
+  - pricing
+  generated: '2026-08-28'
+  method: derived
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-verified-access.png
+tags:
+  - Identity and Access Management
+  - Amazon Web Services
+  - Security
+  - Zero Trust
+tags_raw:
+  - Access Management
+  - AWS
+  - Security
+  - Zero Trust
+url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/apis.yml
+created: '2026-03-16'
+modified: '2026-05-19'
+specificationVersion: '0.23'
+apis:
+- aid: amazon-verified-access:amazon-verified-access-attachverifiedaccesstrustprovider-api
+  name: Amazon Verified Access AttachVerifiedAccessTrustProvider API
+  description: >-
+    The AttachVerifiedAccessTrustProvider API from Amazon Verified Access — 1 operation(s) for attachverifiedaccesstrustprovider.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - AttachVerifiedAccessTrustProvider
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-attachverifiedaccesstrustprovider-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-createverifiedaccessendpoint-api
+  name: Amazon Verified Access CreateVerifiedAccessEndpoint API
+  description: >-
+    The CreateVerifiedAccessEndpoint API from Amazon Verified Access — 1 operation(s) for createverifiedaccessendpoint.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - CreateVerifiedAccessEndpoint
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-createverifiedaccessendpoint-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-createverifiedaccessgroup-api
+  name: Amazon Verified Access CreateVerifiedAccessGroup API
+  description: >-
+    The CreateVerifiedAccessGroup API from Amazon Verified Access — 1 operation(s) for createverifiedaccessgroup.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - CreateVerifiedAccessGroup
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-createverifiedaccessgroup-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-createverifiedaccessinstance-api
+  name: Amazon Verified Access CreateVerifiedAccessInstance API
+  description: >-
+    The CreateVerifiedAccessInstance API from Amazon Verified Access — 1 operation(s) for createverifiedaccessinstance.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - CreateVerifiedAccessInstance
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-createverifiedaccessinstance-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-createverifiedaccesstrustprovider-api
+  name: Amazon Verified Access CreateVerifiedAccessTrustProvider API
+  description: >-
+    The CreateVerifiedAccessTrustProvider API from Amazon Verified Access — 1 operation(s) for createverifiedaccesstrustprovider.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - CreateVerifiedAccessTrustProvider
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-createverifiedaccesstrustprovider-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-deleteverifiedaccessendpoint-api
+  name: Amazon Verified Access DeleteVerifiedAccessEndpoint API
+  description: >-
+    The DeleteVerifiedAccessEndpoint API from Amazon Verified Access — 1 operation(s) for deleteverifiedaccessendpoint.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - DeleteVerifiedAccessEndpoint
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-deleteverifiedaccessendpoint-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-deleteverifiedaccessgroup-api
+  name: Amazon Verified Access DeleteVerifiedAccessGroup API
+  description: >-
+    The DeleteVerifiedAccessGroup API from Amazon Verified Access — 1 operation(s) for deleteverifiedaccessgroup.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - DeleteVerifiedAccessGroup
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-deleteverifiedaccessgroup-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-deleteverifiedaccessinstance-api
+  name: Amazon Verified Access DeleteVerifiedAccessInstance API
+  description: >-
+    The DeleteVerifiedAccessInstance API from Amazon Verified Access — 1 operation(s) for deleteverifiedaccessinstance.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - DeleteVerifiedAccessInstance
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-deleteverifiedaccessinstance-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-deleteverifiedaccesstrustprovider-api
+  name: Amazon Verified Access DeleteVerifiedAccessTrustProvider API
+  description: >-
+    The DeleteVerifiedAccessTrustProvider API from Amazon Verified Access — 1 operation(s) for deleteverifiedaccesstrustprovider.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - DeleteVerifiedAccessTrustProvider
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-deleteverifiedaccesstrustprovider-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-describeverifiedaccessendpoints-api
+  name: Amazon Verified Access DescribeVerifiedAccessEndpoints API
+  description: >-
+    The DescribeVerifiedAccessEndpoints API from Amazon Verified Access — 1 operation(s) for describeverifiedaccessendpoints.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - DescribeVerifiedAccessEndpoints
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-describeverifiedaccessendpoints-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-describeverifiedaccessgroups-api
+  name: Amazon Verified Access DescribeVerifiedAccessGroups API
+  description: >-
+    The DescribeVerifiedAccessGroups API from Amazon Verified Access — 1 operation(s) for describeverifiedaccessgroups.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - DescribeVerifiedAccessGroups
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-describeverifiedaccessgroups-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: >-
+    amazon-verified-access:amazon-verified-access-describeverifiedaccessinstanceloggingconfigurations-api
+  name: Amazon Verified Access DescribeVerifiedAccessInstanceLoggingConfigurations API
+  description: >-
+    The DescribeVerifiedAccessInstanceLoggingConfigurations API from Amazon Verified Access — 1 operation(s)
+    for describeverifiedaccessinstanceloggingconfigurations.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - DescribeVerifiedAccessInstanceLoggingConfigurations
+  properties:
+  - type: OpenAPI
+    url: >-
+      openapi/amazon-verified-access-describeverifiedaccessinstanceloggingconfigurations-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-describeverifiedaccessinstances-api
+  name: Amazon Verified Access DescribeVerifiedAccessInstances API
+  description: >-
+    The DescribeVerifiedAccessInstances API from Amazon Verified Access — 1 operation(s) for describeverifiedaccessinstances.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - DescribeVerifiedAccessInstances
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-describeverifiedaccessinstances-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-describeverifiedaccesstrustproviders-api
+  name: Amazon Verified Access DescribeVerifiedAccessTrustProviders API
+  description: >-
+    The DescribeVerifiedAccessTrustProviders API from Amazon Verified Access — 1 operation(s) for describeverifiedaccesstrustproviders.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - DescribeVerifiedAccessTrustProviders
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-describeverifiedaccesstrustproviders-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-detachverifiedaccesstrustprovider-api
+  name: Amazon Verified Access DetachVerifiedAccessTrustProvider API
+  description: >-
+    The DetachVerifiedAccessTrustProvider API from Amazon Verified Access — 1 operation(s) for detachverifiedaccesstrustprovider.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - DetachVerifiedAccessTrustProvider
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-detachverifiedaccesstrustprovider-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: >-
+    amazon-verified-access:amazon-verified-access-exportverifiedaccessinstanceclientconfiguration-api
+  name: Amazon Verified Access ExportVerifiedAccessInstanceClientConfiguration API
+  description: >-
+    The ExportVerifiedAccessInstanceClientConfiguration API from Amazon Verified Access — 1 operation(s)
+    for exportverifiedaccessinstanceclientconfiguration.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - ExportVerifiedAccessInstanceClientConfiguration
+  properties:
+  - type: OpenAPI
+    url: >-
+      openapi/amazon-verified-access-exportverifiedaccessinstanceclientconfiguration-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-getverifiedaccessendpointpolicy-api
+  name: Amazon Verified Access GetVerifiedAccessEndpointPolicy API
+  description: >-
+    The GetVerifiedAccessEndpointPolicy API from Amazon Verified Access — 1 operation(s) for getverifiedaccessendpointpolicy.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - GetVerifiedAccessEndpointPolicy
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-getverifiedaccessendpointpolicy-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-getverifiedaccessendpointtargets-api
+  name: Amazon Verified Access GetVerifiedAccessEndpointTargets API
+  description: >-
+    The GetVerifiedAccessEndpointTargets API from Amazon Verified Access — 1 operation(s) for getverifiedaccessendpointtargets.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - GetVerifiedAccessEndpointTargets
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-getverifiedaccessendpointtargets-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-getverifiedaccessgrouppolicy-api
+  name: Amazon Verified Access GetVerifiedAccessGroupPolicy API
+  description: >-
+    The GetVerifiedAccessGroupPolicy API from Amazon Verified Access — 1 operation(s) for getverifiedaccessgrouppolicy.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - GetVerifiedAccessGroupPolicy
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-getverifiedaccessgrouppolicy-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-modifyverifiedaccessendpoint-api
+  name: Amazon Verified Access ModifyVerifiedAccessEndpoint API
+  description: >-
+    The ModifyVerifiedAccessEndpoint API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccessendpoint.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - ModifyVerifiedAccessEndpoint
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-modifyverifiedaccessendpoint-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-modifyverifiedaccessendpointpolicy-api
+  name: Amazon Verified Access ModifyVerifiedAccessEndpointPolicy API
+  description: >-
+    The ModifyVerifiedAccessEndpointPolicy API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccessendpointpolicy.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - ModifyVerifiedAccessEndpointPolicy
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-modifyverifiedaccessendpointpolicy-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-modifyverifiedaccessgroup-api
+  name: Amazon Verified Access ModifyVerifiedAccessGroup API
+  description: >-
+    The ModifyVerifiedAccessGroup API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccessgroup.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - ModifyVerifiedAccessGroup
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-modifyverifiedaccessgroup-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-modifyverifiedaccessgrouppolicy-api
+  name: Amazon Verified Access ModifyVerifiedAccessGroupPolicy API
+  description: >-
+    The ModifyVerifiedAccessGroupPolicy API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccessgrouppolicy.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - ModifyVerifiedAccessGroupPolicy
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-modifyverifiedaccessgrouppolicy-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-modifyverifiedaccessinstance-api
+  name: Amazon Verified Access ModifyVerifiedAccessInstance API
+  description: >-
+    The ModifyVerifiedAccessInstance API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccessinstance.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - ModifyVerifiedAccessInstance
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-modifyverifiedaccessinstance-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: >-
+    amazon-verified-access:amazon-verified-access-modifyverifiedaccessinstanceloggingconfiguration-api
+  name: Amazon Verified Access ModifyVerifiedAccessInstanceLoggingConfiguration API
+  description: >-
+    The ModifyVerifiedAccessInstanceLoggingConfiguration API from Amazon Verified Access — 1 operation(s)
+    for modifyverifiedaccessinstanceloggingconfiguration.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - ModifyVerifiedAccessInstanceLoggingConfiguration
+  properties:
+  - type: OpenAPI
+    url: >-
+      openapi/amazon-verified-access-modifyverifiedaccessinstanceloggingconfiguration-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+- aid: amazon-verified-access:amazon-verified-access-modifyverifiedaccesstrustprovider-api
+  name: Amazon Verified Access ModifyVerifiedAccessTrustProvider API
+  description: >-
+    The ModifyVerifiedAccessTrustProvider API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccesstrustprovider.
+  humanURL: https://aws.amazon.com/verified-access/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - ModifyVerifiedAccessTrustProvider
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-access-modifyverifiedaccesstrustprovider-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: APIReference
+    url: >-
+      https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-verified-access.html
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-access/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-access/faqs/
+common:
+  - type: Plans
+    url: plans/amazon-verified-access-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/amazon-verified-access-rate-limits.yml
+  - type: FinOps
+    url: finops/amazon-verified-access-finops.yml
+  - type: CapabilityMap
+    url: capabilities/amazon-verified-access-capability-edges.yml
+    name: Amazon Verified Access Business Capability Map
+  - type: AgenticAccess
+    url: agentic-access/amazon-verified-access-agentic-access.yml
+  - type: TrustCenter
+    url: security/amazon-verified-access-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/amazon-verified-access-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/amazon-verified-access-domain-security.yml
+  - type: Portal
+    url: https://aws.amazon.com/
+  - type: Website
+    url: https://aws.amazon.com/verified-access/
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verified-access/latest/ug/
+  - type: Console
+    url: https://console.aws.amazon.com/verified-access/
+  - type: TermsOfService
+    url: https://aws.amazon.com/service-terms/
+  - type: PrivacyPolicy
+    url: https://aws.amazon.com/privacy/
+  - type: Support
+    url: https://aws.amazon.com/premiumsupport/
+  - type: Signup
+    url: https://signin.aws.amazon.com/signup?request_type=register
+  - type: Login
+    url: https://aws.amazon.com/console/
+  - type: StatusPage
+    url: https://health.aws.amazon.com/health/status
+  - type: GitHubOrganization
+    url: https://github.com/aws
+  - type: SpectralRules
+    url: >-
+      https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/rules/amazon-verified-access-spectral-rules.yml
+  - type: Vocabulary
+    url: >-
+      https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/vocabulary/amazon-verified-access-vocabulary.yaml
+  - type: Features
+    data:
+      - name: Automation
+        description: Automate operational tasks with Amazon Verified Access.
+      - name: API Access
+        description: Programmatic access to Amazon Verified Access resources.
+  - type: UseCases
+    data:
+      - name: Cloud Operations
+        description: Use Amazon Verified Access to manage and automate cloud operations.
+  - type: Integrations
+    url: https://aws.amazon.com/partners/
+integrations:
+  - name: Partner Programs
+  - name: Resources
+  - name: Success Stories
+  - name: Work with an AWS Partner
+  - name: AWS Marketplace
+  - name: AWS Partner Central
+  - name: Partner Paths
+  - name: co-sell with AWS
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+x-parent: amazon-web-services
+x-relationship: product
