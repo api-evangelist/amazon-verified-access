@@ -2,6 +2,7 @@
 generated: '2026-10-28'
 method: searched
 source: https://aws.amazon.com/verified-access/pricing/
+name: Amazon Verified Access API Plans
 sources:
 - https://aws.amazon.com/verified-access/pricing/
 provenance:
@@ -50,7 +51,7 @@ plans:
   included_quota: number of non-HTTP endpoints * 100 free connections
   overage: charged for every connection beyond the total number of free connections
 x-canonical:
-  generated: '2026-11-06'
+  generated: '2026-11-13'
   vocabulary: engine/economics/plans-canonical.yml
   models:
   - hybrid
